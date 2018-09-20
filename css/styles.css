@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+body {
+     background-image: url(background2.jpg);
+     background-position: center;
+     background-size: contain;
+     background-repeat: not-repeat;
+   
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
