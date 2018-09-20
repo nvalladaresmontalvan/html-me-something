@@ -1,19 +1,33 @@
 @charset "ISO-8859-1";
 
 body {
-     background-image: url(background2.jpg);
-     background-position: center;
-     background-size: contain;
-     background-repeat: not-repeat;
-   
+    background: #CCC;
+  filter: alpha(opacity=60);
+  /* IE */
+  -moz-opacity: 0.6;
+  /* Mozilla */
+  opacity: 0.6;
+  /* CSS3 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
+
+
 h1 {
-    color: white;
+    color: black;
     text-align: center;
+}
+
+h3 {
+	color: red;
+	font-family: fantasy;
 }
 
 p {
     font-family: verdana;
-    font-size: 20px;
+ 
 }
